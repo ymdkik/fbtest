@@ -31,7 +31,6 @@ async function DeleteUser(id) {
 }
 
 function RenderUsers(props) {
-    console.log(props)
     if(props.data.length){
         return (
             <>
